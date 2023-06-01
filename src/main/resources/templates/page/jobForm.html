@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지원내역 등록</title>
+</head>
+<body>
+    <form>
+        공고 주소 : <input type="text" name="job_url" id="job_url" placeholder="공고 주소를 넣어주세요.">
+        <button>공고 등록하기</button>
+
+        공고명 : <input type="text" name="job_name" id="job_name" placeholder="공고명">
+        회사명 : <input type="text" name="job_company" id="job_company" placeholder="회사명">
+        급여 : <input type="text" name="job_salary" id="job_salary" placeholder="급여">
+        지역 : <input type="text" name="job_location" id="job_location" placeholder="근무지">
+        지원일 : <input type="date" name="apply_date" id="apply_date">
+
+        제출서류
+        <input type="checkbox" name="apply_document" id="platform_resume" value="platform_resume">
+        <label for="platform_resume">플랫폼(기업)이력서</label>
+
+        <input type="checkbox" name="apply_document" id="notion_resume" value="notion_resume">
+        <label for="notion_resume">Notion이력서</label>
+
+        <input type="checkbox" name="apply_document" id="self_document" value="self_document">
+        <label for="self_document">자기소개서</label>
+
+        <input type="checkbox" name="apply_document" id="portfolio" value="portfolio">
+        <label for="portfolio">포트폴리오</label>
+
+        <input type="checkbox" name="apply_document" id="carrer_document" value="carrer_document">
+        <label for="carrer_document">경력기술서</label>
+
+        <button>등록하기</button>
+        <button>돌아가기</button>
+    </form>
+</body>
+</html>
